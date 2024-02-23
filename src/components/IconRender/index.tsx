@@ -15,6 +15,8 @@ const iconMapper: IconMapper = {
   FaBeer: FaIcons.FaBeer,
   FaCoffee: FaIcons.FaCoffee,
   FaMoon: FaIcons.FaMoon,
+  FaBook: FaIcons.FaBook,
+  FaHome: FaIcons.FaHome,
   FaSun: FaIcons.FaSun,
   GiSpellBook: GiIcons.GiSpellBook,
   GiBatwingEmblem: GiIcons.GiBatwingEmblem,

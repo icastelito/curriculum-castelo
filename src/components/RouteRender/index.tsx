@@ -1,4 +1,4 @@
-import { menuNavigation } from "../../utils.ts";
+import { menuNavigation } from "../../utils.tsx";
 import SelectionMenuNavigation from "../SelectionMenu/index.tsx";
 import HeaderMenuNavigation from "../HeaderMenu/index.tsx";
 

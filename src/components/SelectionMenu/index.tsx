@@ -1,4 +1,4 @@
-import { menuNavigationProps } from "../../utils";
+import { menuNavigationProps } from "../../utils.tsx";
 import { useNavigate } from "react-router-dom";
 import RenderIcon from "../IconRender";
 

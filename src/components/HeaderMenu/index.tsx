@@ -1,4 +1,4 @@
-import { menuNavigationProps } from "../../utils";
+import { menuNavigationProps } from "../../utils.tsx";
 import { useNavigate } from "react-router-dom";
 
 interface HeaderMenuProps {
@@ -13,10 +13,12 @@ const HeaderMenuNavigation: React.FC<HeaderMenuProps> = ({ navigationItems }) =>
   };
 
   return (
-    <nav>
+    <nav className="flex position-fixed top-0">
       {navigationItems.map((item) => (
         <div key={item.name}>
-          <button onClick={() => handleCardClick(item.path)}>{item.name}</button>
+          <button className="text-sm font-medium text-white-900" onClick={() => handleCardClick(item.path)}>
+            {item.name}
+          </button>
         </div>
       ))}
     </nav>
