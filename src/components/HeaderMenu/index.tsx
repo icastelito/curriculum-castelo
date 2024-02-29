@@ -13,7 +13,7 @@ const HeaderMenuNavigation: React.FC<HeaderMenuProps> = ({ navigationItems }) =>
   };
 
   return (
-    <nav className="flex position-fixed top-0">
+    <nav className="flex fixed top-0 right-5 bg-white ">
       {navigationItems.map((item) => (
         <div key={item.name}>
           <button className="text-sm font-medium text-white-900" onClick={() => handleCardClick(item.path)}>
