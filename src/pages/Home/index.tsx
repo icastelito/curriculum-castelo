@@ -1,11 +1,15 @@
-import { MainContentIndex, HeaderIndex } from "../../components/RouteRender/index";
+import { /*MainContentIndex,*/ HeaderIndex } from "../../components/RouteRender/index";
+import { MainContent, mainContent } from "../../mocks/mainContent";
 
 const HomePage = () => {
   return (
-    <div>
+    <section>
       <HeaderIndex />
+      {/*
       <MainContentIndex />
-    </div>
+      */}
+      <h1>{mainContent.name}</h1>
+    </section>
   );
 };
 
